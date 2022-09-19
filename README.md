@@ -5,9 +5,9 @@ Civic-Tech Houston
 The purpose of this MVP is to make future Houston Hackathons more robust by more efficiently crowdsourcing city issues from Houstonians to be solved by the Houston coding community.
 
 Link to project: https://civic-tech-houston.netlify.app/
-  - Demo address: 123 Main St.
+  - Demo address: 123 Main St
 
-How It's Made:
+# How It's Made:
 Tech used: HTML, CSS, JavaScript, React
 
 ![Recording 2022-09-18 at 23 57 55](https://user-images.githubusercontent.com/96213223/190952253-e2fa73e6-56ba-4090-bccc-74ac4b76b099.gif)
