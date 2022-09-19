@@ -50,19 +50,19 @@ function App() {
             <Stack spacing={3} m={50}>
               <Text fontSize="4xl"> Civic Information </Text>
               <Text fontSize="3xl">
-                Name: {selectedSuperNeighborhood?.name}
+                <b>Name</b>: {selectedSuperNeighborhood?.name}
               </Text>
               <Text fontSize="3xl">
-                Status: {selectedSuperNeighborhood?.status}
+                <b>Status</b>: {selectedSuperNeighborhood?.status}
               </Text>
               {selectedSuperNeighborhood?.contactAndMeetingInformation ? (
                 <Text fontSize="3xl">
-                  Dates:
+                  <b>Dates</b>:
                   {selectedSuperNeighborhood?.contactAndMeetingInformation}{" "}
                 </Text>
               ) : null}
               <Text fontSize="3xl">
-                Location: {selectedSuperNeighborhood?.location}
+                <b>Location</b>: {selectedSuperNeighborhood?.location}
               </Text>
             </Stack>
 
