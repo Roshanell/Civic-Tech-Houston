@@ -1,11 +1,17 @@
-# Civic-Tech Houston 
+Civic-Tech Houston 
 # Houston Hackathon 2022 Submission
 ![Civic-Tech Houston Logo](https://user-images.githubusercontent.com/101611557/190950753-3babbcad-600e-4ecd-9b92-d3c5aafc8700.PNG)
 
-# Goal
+The purpose of this MVP is to make future Houston Hackathons more robust by more efficiently crowdsourcing city issues from Houstonians to be solved by the Houston coding community.
 
-<li>The purpose of this application is to make future Houston Hackathons more robust by more efficiently crowdsourcing city issues from <li>Houstonians to be solved by the Houston coding community.
+Link to project: https://civic-tech-houston.netlify.app/
+  - Demo address: 123 Main St.
+
+How It's Made:
+Tech used: HTML, CSS, JavaScript, React
+
 ![Recording 2022-09-18 at 23 57 55](https://user-images.githubusercontent.com/96213223/190952253-e2fa73e6-56ba-4090-bccc-74ac4b76b099.gif)
+
 
 # Getting Started with Create React App
 
@@ -37,44 +43,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment 
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
