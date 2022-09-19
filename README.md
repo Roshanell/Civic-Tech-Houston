@@ -1,3 +1,7 @@
+# Civic-Tech Houston 
+# Houston Hackathon 2022 Submission
+![Civic-Tech Houston Logo](https://user-images.githubusercontent.com/101611557/190950753-3babbcad-600e-4ecd-9b92-d3c5aafc8700.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
