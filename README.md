@@ -1,7 +1,7 @@
 # Civic-Tech Houston 
 # Houston Hackathon 2022 Submission
 ![Civic-Tech Houston Logo](https://user-images.githubusercontent.com/101611557/190950753-3babbcad-600e-4ecd-9b92-d3c5aafc8700.PNG)
-
+## Goal
 The purpose of this MVP is to make future Houston Hackathons more robust by more efficiently crowdsourcing city issues from Houstonians to be solved by the Houston coding community.
 
 Link to project: https://civic-tech-houston.netlify.app/
