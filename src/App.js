@@ -80,7 +80,7 @@ function App() {
               <FormControl>
                 <FormLabel>What is the problem?</FormLabel>
                 <Textarea />
-                <Button colorScheme="blue" onClick={onClose}>
+                <Button colorScheme="blue" onClick={onClose} mt={50}>
                   Submit
                 </Button>
               </FormControl>
