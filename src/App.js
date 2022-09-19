@@ -1,7 +1,6 @@
 import * as React from "react";
 import superNeighborhoods from "./data.json";
 
-// 1. import `ChakraProvider` component
 import {
   ChakraProvider,
   FormControl,
@@ -12,10 +11,20 @@ import {
   Text,
   Button,
   Box,
+  useDisclosure,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalCloseButton,
+  ModalBody,
+  ModalFooter,
+  Textarea,
 } from "@chakra-ui/react";
 
 function App() {
   const [address, setAddress] = React.useState("");
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [selectedSuperNeighborhood] = superNeighborhoods.filter(
     (superNeighborhood) => {
@@ -27,7 +36,6 @@ function App() {
     setAddress(event.target.value);
   };
 
-  // 2. Wrap ChakraProvider at the root of your app
   return (
     <ChakraProvider>
       <Box m={100}>
@@ -59,11 +67,27 @@ function App() {
               </Text>
             </Stack>
 
-            <Button colorScheme="blue" spacing={3} ml={52}>
+            <Button colorScheme="blue" spacing={3} ml={52} onClick={onOpen}>
               Report a Problem
             </Button>
           </>
         ) : null}
+        <Modal isOpen={isOpen} onClose={onClose}>
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader>Modal Title</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <FormControl>
+                <FormLabel>What is the problem?</FormLabel>
+                <Textarea />
+                <Button colorScheme="blue" onClick={onClose}>
+                  Submit
+                </Button>
+              </FormControl>
+            </ModalBody>
+          </ModalContent>
+        </Modal>
       </Box>
     </ChakraProvider>
   );
